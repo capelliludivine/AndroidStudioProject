@@ -16,7 +16,7 @@ protected void onCreate(Bundle savedInstanceState) {
         new Handler().postDelayed(new Runnable() {
 @Override
 public void run() {
-        Intent i = new Intent(SplashScreen.this, MainActivity.class);
+        Intent i = new Intent(SplashScreen.this, HomeActivity.class);
         startActivity(i);
         finish();
         }
