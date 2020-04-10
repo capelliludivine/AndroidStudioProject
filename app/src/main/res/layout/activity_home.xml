@@ -38,6 +38,7 @@
 
 
         <ImageView
+            android:id="@+id/ListeDeRayon"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_margin="15dp"
