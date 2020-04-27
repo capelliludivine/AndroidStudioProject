@@ -31,13 +31,11 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         convertView = li.inflate(R.layout.c_student, null);
 
         TextView textViewName=convertView.findViewById(R.id.textViewName);
-        TextView textViewEmail=convertView.findViewById(R.id.textViewEmail);
         ImageView imageView=convertView.findViewById(R.id.imageViewStudent);
 
         Student student=getItem(position);
 
         textViewName.setText(student.getName());
-        textViewEmail.setText(student.getEmail());
         int identifier = getContext().getResources().getIdentifier(student.getPicture(), "drawable", getContext().getPackageName());
         imageView.setImageResource(identifier);
 

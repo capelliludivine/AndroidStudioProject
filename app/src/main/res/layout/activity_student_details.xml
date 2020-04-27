@@ -36,9 +36,29 @@
 
     <TextView
         android:id="@+id/textViewEmailDetails"
-        android:layout_width="match_parent"
+        android:layout_width="378dp"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewGroupeDetails"
+        android:layout_width="378dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewURLDetails"
+        android:layout_width="378dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:textColor="@android:color/white"

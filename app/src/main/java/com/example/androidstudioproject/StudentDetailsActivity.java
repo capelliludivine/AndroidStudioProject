@@ -27,10 +27,14 @@ public class StudentDetailsActivity extends MainActivity {
         student = (Student) getIntent().getExtras().get("student");
         TextView textName = findViewById(R.id.textViewNameDetails);
         TextView textEmail = findViewById(R.id.textViewEmailDetails);
+        TextView textGroupe = findViewById(R.id.textViewGroupeDetails);
+        TextView textURL = findViewById(R.id.textViewURLDetails);
         ImageView imageViewDetails= findViewById(R.id.imageViewStudentDetails);
 
         textName.setText(student.getName());
         textEmail.setText(student.getEmail());
+        textGroupe.setText(student.getGroupe());
+        textURL.setText(student.getURL());
         int identifier = getResources().getIdentifier(student.getPicture(), "drawable", getPackageName());
         imageViewDetails.setImageResource(identifier);
         setTitle(student.getName());

@@ -21,7 +21,7 @@ import com.example.androidstudioproject.model.Student;
 
 public class StudentsActivity extends MainActivity {
 
-    private String data=" {\"items\": [{\"picture\": \"@drawable/ludi\",\"name\": \"CAPELLI Ludivine\",\"email\": \"ludivine.capelli@g-mail.fr\"},{\"picture\": \"@drawable/ame\",\"name\": \"CAPELLI Amélie\",\"email\": \"amelie.capelli@g-mail.fr\"},{\"picture\": \"@drawable/ludo\",\"name\": \"GENDRE Ludovic\",\"email\": \"ludovic.gendre@g-mail.fr\"},{\"picture\": \"@drawable/lilian\",\"name\": \"GENDRE Lilian\",\"email\": \"lilian.gendre@g-mail.fr\"},{\"picture\": \"@drawable/al\",\"name\": \"DOMPEYRE Anne-Laure\",\"email\": \"annelaure.dompeyre@g-mail.fr\"},{\"picture\": \"@drawable/ju\",\"name\": \"BOCAGE Julien\",\"email\": \"julien.bocage@g-mail.fr\"}]}]}";
+    private String data=" {\"items\": [{\"picture\": \"@drawable/ludi\",\"name\": \"CAPELLI Ludivine\",\"email\": \"ludivine.capelli@g-mail.fr\",\"groupe\": \"Bachelor 3 DevOps\", \"URL\": \"https://www.epsi.fr\"},{\"picture\": \"@drawable/ame\",\"name\": \"CAPELLI Amélie\",\"email\": \"amelie.capelli@g-mail.fr\",\"groupe\": \" Collégienne\"},{\"picture\": \"@drawable/ludo\",\"name\": \"GENDRE Ludovic\",\"email\": \"ludovic.gendre@g-mail.fr\",\"groupe\": \"Etudiant\"},{\"picture\": \"@drawable/lilian\",\"name\": \"GENDRE Lilian\",\"email\": \"lilian.gendre@g-mail.fr\",\"groupe\": \"Etudiant\"},{\"picture\": \"@drawable/al\",\"name\": \"DOMPEYRE Anne-Laure\",\"email\": \"annelaure.dompeyre@g-mail.fr\" ,\"groupe\": \"Etudiante\"},{\"picture\": \"@drawable/ju\",\"name\": \"BOCAGE Julien\",\"email\": \"julien.bocage@g-mail.fr\" ,\"groupe\": \"Etudiant\"}]}]}";
     private ArrayList<Student> students;
 
     public static void display( MainActivity activity){
