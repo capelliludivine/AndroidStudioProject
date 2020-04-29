@@ -12,6 +12,7 @@ public class HomeActivity extends MainActivity implements View.OnClickListener {
         setContentView(R.layout.activity_home);
         super.onCreate(savedInstanceState);
         findViewById(R.id.ListeDEtudiant).setOnClickListener(this);
+        findViewById(R.id.ListeDeRayon).setOnClickListener(this);
     }
 
     @Override
@@ -21,7 +22,7 @@ public class HomeActivity extends MainActivity implements View.OnClickListener {
                 StudentsActivity.display(HomeActivity.this);
                 break;
             case R.id.ListeDeRayon:
-                StudentsActivity.display(HomeActivity.this);
+                CategoryActivity.display(HomeActivity.this);
                 break;
         }
     }
