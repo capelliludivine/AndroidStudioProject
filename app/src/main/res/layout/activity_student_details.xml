@@ -25,6 +25,17 @@
         android:paddingVertical="0dp" />
 
     <TextView
+        android:id="@+id/text"
+        android:layout_width="378dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="Informations sur l'étudiant"
+        android:textSize="20dp" />
+
+    <TextView
         android:id="@+id/textViewNameDetails"
         android:layout_width="378dp"
         android:gravity="center"
